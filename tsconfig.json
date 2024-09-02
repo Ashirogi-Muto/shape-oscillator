@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node", // or "nodenext"
+    "typeRoots": ["./node_modules/@types", "./node_modules/@pixi"],
+    "paths": {
+      "pixi.js": ["./node_modules/pixi.js"]
+    }
+  },
+  "include": ["src/**/*", "global.d.ts"],
+  "exclude": ["node_modules"]
+}
